@@ -1,3 +1,5 @@
+# To print the array of elements in reverse order using recursion
+
 def array(arr,n,i):
     if n==i:
         return
