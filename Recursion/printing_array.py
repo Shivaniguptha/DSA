@@ -1,3 +1,5 @@
+# To print the array of elements using recursion
+
 def array(l,i):
     length=len(l)
     if length==i:
