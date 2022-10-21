@@ -1,7 +1,7 @@
-# Initializing array and item that has to be seached.
+# Initializing array.
 
 arr=[1,2,6,8,4,3]
-item=8
+item=int(input('Enter the value that has to be searched: '))
 length=len(arr)
 flag=0
 
