@@ -21,6 +21,6 @@ def binary_search(arr,left,right,num):
 arr=[1,2,3,4,5]
 num=int(input('Enter a number that has to be deleted from the array: '))
 
-print(delete_num(arr,num))
+arr=delete_num(arr,num)
 
 print('{} is deleted from array and the final array is {}'.format(num,arr[:-1]))
