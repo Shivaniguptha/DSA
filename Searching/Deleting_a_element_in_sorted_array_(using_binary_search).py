@@ -6,7 +6,7 @@ def delete_num(arr,num):
         print('element not found')
     for i in range(pos,len(arr)-1):
         arr[i]=arr[i+1]
-    return arr
+    return 0
 
 def binary_search(arr,left,right,num):
     if right>left:
@@ -21,6 +21,6 @@ def binary_search(arr,left,right,num):
 arr=[1,2,3,4,5]
 num=int(input('Enter a number that has to be deleted from the array: '))
 
-arr=delete_num(arr,num)
+delete_num(arr,num)
 
 print('{} is deleted from array and the final array is {}'.format(num,arr[:-1]))
