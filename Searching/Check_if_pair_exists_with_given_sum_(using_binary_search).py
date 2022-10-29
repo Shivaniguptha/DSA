@@ -9,7 +9,7 @@ def binary_search(arr,left,right,num):
             return int(left)
         elif arr[right]==num:
             return int(right)
-        elif arr[mid]<num:
+        elif arr[mid]>num:
             return binary_search(arr,left,mid-1,num)
         else:
             return binary_search(arr,mid+1,right,num)
