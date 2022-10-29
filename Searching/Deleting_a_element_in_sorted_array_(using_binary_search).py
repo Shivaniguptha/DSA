@@ -13,7 +13,7 @@ def binary_search(arr,left,right,num):
         mid=int(left+((right-left)/2))
         if arr[mid]==num:
             return int(mid)
-        elif arr[mid]<num:
+        elif arr[mid]>num:
             return binary_search(arr,left,mid-1,num)
         else:
             return binary_search(arr,mid+1,right,num)
