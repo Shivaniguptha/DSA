@@ -75,7 +75,13 @@ llist.printList()
 llist.deletion_after(2)
 llist.printList()
 
-
+'''
+OUTPUT:
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> NULL
+2 -> 3 -> 4 -> 5 -> 6 -> NULL
+2 -> 3 -> 4 -> 5 -> NULL
+2 -> 4 -> 5 -> NULL
+'''
 
 
 
